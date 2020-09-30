@@ -1,0 +1,197 @@
+{
+  "categorias": [
+    {
+      "titulo": "Nossos Vídeos",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "titulo": "O que é Arduino",
+          "url": "https://www.youtube.com/watch?v=-iOuF0qSlv4"
+        },
+        {
+          "titulo": "Historia do Arduino",
+          "url": "https://youtu.be/9nucMfF15Ik"
+        },
+        {
+          "titulo": "Conceitos de Eletrônica para Arduino",
+          "url": "https://youtu.be/1_4Psagxtps"
+        },
+        {
+          "titulo": "Conceitos básicos de Logica de programação",
+          "url": "https://youtu.be/i7CabAnxA5Q"
+        },
+        {
+          "titulo": "Primeira Aula Pratica",
+          "url": "https://youtu.be/KYPX_cxAFN0"
+        },
+        {
+          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        {
+          "titulo": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "titulo": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }
+      ]
+    },
+    {
+      "titulo": "Fundamentos de Computação",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Cursos de Back End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "titulo": "Fundamentos de Computação - Capitulo 1 (1º Parte)",
+          "url": "https://youtu.be/EQ3f7S70gk4"
+        },
+        {
+          "titulo": "Fundamentos de Computação - Capitulo 1 (2º Parte)",
+          "url": "https://youtu.be/r-o-BN9t5tw"
+        },
+        {
+          "titulo": "Fundamentos de Computação Capitulo 2 (1º Parte)",
+          "url": "https://youtu.be/A5d32FgPH3Q"
+        },
+        {
+          "titulo": "Fundamentos de Computação Capitulo 2 (2º Parte)",
+          "url": "https://youtu.be/fvBPRiugQv4"
+        },
+        {
+          "titulo": "Fundamentos de Computação Capitulo 4",
+          "url": "https://youtu.be/hHYqCmJkJKo"
+        },
+        {
+          "titulo": "Fundamentos de Computação Capitulo 5 instalação do windows 10 parte 1",
+          "url": "https://youtu.be/5WhkAu77AEo"
+        },
+        {
+          "titulo": "Fundamentos de Computação Capitulo 5 instalação do windows 10 parte 2",
+          "url": "https://youtu.be/cCboDBE5ZXc"
+        },
+        {
+          "titulo": "Fundamentos de Computação Capitulo 5 instalação do windows 10 parte 3",
+          "url": "https://youtu.be/Wss7jGz2Paw"
+        }
+      ]
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
