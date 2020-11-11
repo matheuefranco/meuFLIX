@@ -20,6 +20,34 @@
       "cor": "#6BD1FF",
       "descricao": "Formação de Front End na Alura",
       "url": "https://www.alura.com.br/cursos-online-front-end"
+    },
+    {
+      "titulo": "Raspberry Pi",
+      "descricao": "Site Oficial",
+      "url": "https://www.raspberrypi.org/",
+      "cor": "#000000",
+      "id": 4
+    },
+    {
+      "titulo": "UPGRADE ",
+      "descricao": "Site Oficial",
+      "url": "https://www.raspberrypi.org/",
+      "cor": "#39b530",
+      "id": 5
+    },
+    {
+      "titulo": "UPGRADE 2",
+      "descricao": "CPU I3",
+      "url": "https://soundcloud.com/parama-dita-216227799/post-malone-goodbyes-ft-young",
+      "cor": "#b80f0f",
+      "id": 6
+    },
+    {
+      "titulo": "Raspberry Pi 33",
+      "descricao": "Site Oficial",
+      "url": "https://www.youtube.com/playlist?list=PLQV1blIfl0YCWdnJMov7ThwOPwO3Vo7t2",
+      "cor": "#4357b6",
+      "id": 7
     }
   ],
   "videos": [
