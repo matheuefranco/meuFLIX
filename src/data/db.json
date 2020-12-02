@@ -83,6 +83,13 @@
       "categoriaId": 3,
       "titulo": "Novidades do Angular v9",
       "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+    },
+    {
+      "titulo": "Video Teste",
+      "description": "Teste V",
+      "url": "https://www.youtube.com/watch?v=bEl6yN3vd-U",
+      "categoriaId": 2,
+      "id": 6
     }
   ]
 }

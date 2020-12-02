@@ -4,10 +4,40 @@ import { Link, useHistory } from "react-router-dom";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./index.css"
+import repository from "../../Repository.js"
+
 
 function CadastroVideo() {
     const { register, handleSubmit, errors } = useForm();
     const [categorias, setCategorias] = useState([]);
+
+    useEffect(() => {
+      repository.getCategorias().then(async (categorias) => {
+        await setCategorias(categorias);
+      });
+    }, []);
+
+    function onSubmit(dados) {
+      console.log("Dados:", dados);
+      fetch(`http://localhost:8080/videos`, {
+        method: "post",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...dados,
+          categoriaId: Number(dados.categoriaId),
+        }),
+      })
+        .then(function (response) {
+          return response.json();
+        })
+        .then(() => {
+          console.log("Cadastrou com sucesso!");
+        })
+        .catch((error) => console.error("Error:", error))
+        .then((response) => console.log("Success:", JSON.stringify(response)))
+    }
 
     return (
          <div>
@@ -16,7 +46,7 @@ function CadastroVideo() {
             
             <form className="container"
               id="video-form"
-              onSubmit={handleSubmit()}
+              onSubmit={handleSubmit(onSubmit)}
               
             >
             <h1> Cadastro de Vídeos </h1>
