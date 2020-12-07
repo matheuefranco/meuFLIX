@@ -5,11 +5,23 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./index.css"
 import repository from "../../Repository.js"
-
+import ModalDialog from "../../components/Modal";
+import config from "../../config.js";
 
 function CadastroVideo() {
     const { register, handleSubmit, errors } = useForm();
     const [categorias, setCategorias] = useState([]);
+
+    const history = useHistory();
+    const [open, setOpen] = React.useState(false);
+    const handleClickOpen = () => {setOpen(true);};
+    const handleNo = () => {  
+      setOpen(false); 
+      history.push('/');
+    };
+    const handleYes = () => {
+      setOpen(false);
+    };
 
     useEffect(() => {
       repository.getCategorias().then(async (categorias) => {
@@ -19,7 +31,7 @@ function CadastroVideo() {
 
     function onSubmit(dados) {
       console.log("Dados:", dados);
-      fetch(`http://localhost:8080/videos`, {
+      fetch(`${config.URL_BACKEND}/videos`, {
         method: "post",
         headers: {
           "Content-Type": "application/json",
@@ -37,7 +49,9 @@ function CadastroVideo() {
         })
         .catch((error) => console.error("Error:", error))
         .then((response) => console.log("Success:", JSON.stringify(response)))
+        .then(handleClickOpen())
     }
+
 
     return (
          <div>
@@ -95,6 +109,17 @@ function CadastroVideo() {
             </form>
             <Link to="/categorias">Cadastrar Categoria </Link>
             </div>
+            <ModalDialog 
+             open = {open}
+             handleClose = {handleNo}
+             titulo = 'Cadastrado com sucesso'
+             texto = 'Deseja fazer outro cadastro?'
+             handleSim = {handleYes}
+             handleNao = {handleNo}
+          />
+          <Link to="/">
+            Ir para home
+          </Link>
             <Footer />
             </div>
 

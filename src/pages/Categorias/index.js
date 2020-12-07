@@ -5,6 +5,8 @@ import { useForm } from 'react-hook-form';
 import { Link, useHistory } from 'react-router-dom';
 import "./index.css"
 import ModalDialog from '../../components/Modal';
+import config from "../../config.js";
+
 function CadastroCategoria() {
     const { register, handleSubmit, errors } = useForm();
     const history = useHistory();
@@ -23,7 +25,7 @@ function CadastroCategoria() {
 
     function onSubmit(dados) {
       console.log("Dados:", dados);
-      fetch(`http://localhost:8080/categorias`, {
+      fetch(`${config.URL_BACKEND}/categorias`, {
         method: "post",
         headers: {
           "Content-Type": "application/json",

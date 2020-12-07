@@ -1,0 +1,48 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Arduino",
+      "cor": "#6BD1FF",
+      "descricao": "IFSULDEMINAS - Campus Machado",
+      "url": "https://info.mch.ifsuldeminas.edu.br/"
+    },
+    {
+      "titulo": "Nossos Vídeos",
+      "descricao": "Nossos Vídeos",
+      "url": "https://info.mch.ifsuldeminas.edu.br/",
+      "cor": "#6f97d8",
+      "id": 2
+    },
+    {
+      "titulo": "Fundamentos de Computação",
+      "descricao": "Fundamentos de Computação",
+      "url": "https://info.mch.ifsuldeminas.edu.br/",
+      "cor": "#47b362",
+      "id": 3
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "descricao": "Data Science e Inteligência Artificial",
+      "url": "https://info.mch.ifsuldeminas.edu.br/",
+      "cor": "#62c67b",
+      "id": 4
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O que é Arduino",
+      "description": "O que é Arduino",
+      "url": "https://www.youtube.com/watch?v=-iOuF0qSlv4"
+    },
+    {
+      "titulo": "História do Arduino",
+      "description": "História do Arduino",
+      "url": "https://www.youtube.com/watch?v=9nucMfF15Ik",
+      "categoriaId": 1,
+      "id": 2
+    }
+  ]
+}

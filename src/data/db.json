@@ -11,43 +11,15 @@
       "id": 2,
       "titulo": "Fundamentos de Computação",
       "cor": "green",
-      "descricao": "IFSULDEMINAS - Campus Machadoa",
+      "descricao": "IFSULDEMINAS - Campus Machado",
       "url": "https://info.mch.ifsuldeminas.edu.br/"
     },
     {
       "id": 3,
       "titulo": "Front End",
-      "cor": "#6BD1FF",
+      "cor": "red",
       "descricao": "Formação de Front End na Alura",
       "url": "https://www.alura.com.br/cursos-online-front-end"
-    },
-    {
-      "titulo": "Raspberry Pi",
-      "descricao": "Site Oficial",
-      "url": "https://www.raspberrypi.org/",
-      "cor": "#000000",
-      "id": 4
-    },
-    {
-      "titulo": "UPGRADE ",
-      "descricao": "Site Oficial",
-      "url": "https://www.raspberrypi.org/",
-      "cor": "#39b530",
-      "id": 5
-    },
-    {
-      "titulo": "UPGRADE 2",
-      "descricao": "CPU I3",
-      "url": "https://soundcloud.com/parama-dita-216227799/post-malone-goodbyes-ft-young",
-      "cor": "#b80f0f",
-      "id": 6
-    },
-    {
-      "titulo": "Raspberry Pi 33",
-      "descricao": "Site Oficial",
-      "url": "https://www.youtube.com/playlist?list=PLQV1blIfl0YCWdnJMov7ThwOPwO3Vo7t2",
-      "cor": "#4357b6",
-      "id": 7
     }
   ],
   "videos": [
@@ -67,29 +39,99 @@
     },
     {
       "id": 3,
-      "categoriaId": 2,
-      "titulo": "Introdução ao Scratch - Curso de Algoritmos",
-      "description": "Introdução ao Scratch",
-      "url": "https://www.youtube.com/watch?v=GrPkuk1ezyo"
+      "categoriaId": 1,
+      "titulo": "Conceitos de Eletrônica para Arduino",
+      "description": "Conceitos de Eletrônica para Arduino",
+      "url": "https://youtu.be/1_4Psagxtps"
     },
     {
       "id": 4,
+      "categoriaId": 1,
+      "titulo": "Conceitos básicos de Logica de programação",
+      "url": "https://youtu.be/i7CabAnxA5Q"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Primeira Aula Pratica",
+      "url": "https://youtu.be/KYPX_cxAFN0"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Fundamentos de Computação - Capitulo 1 (1º Parte)",
+      "url": "https://youtu.be/EQ3f7S70gk4"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Fundamentos de Computação - Capitulo 1 (2º Parte)",
+      "url": "https://youtu.be/r-o-BN9t5tw"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Fundamentos de Computação Capitulo 2 (1º Parte)",
+      "url": "https://youtu.be/A5d32FgPH3Q"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Fundamentos de Computação Capitulo 2 (2º Parte)",
+      "url": "https://youtu.be/fvBPRiugQv4"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Fundamentos de Computação Capitulo 4",
+      "url": "https://youtu.be/hHYqCmJkJKo"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Template String",
+      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+    },
+    {
+      "id": 12,
       "categoriaId": 3,
       "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
       "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
     },
     {
-      "id": 5,
-      "categoriaId": 3,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "titulo": "O que é Arduino, afinal de contas? ",
+      "description": "#ManualMaker ",
+      "url": "https://www.youtube.com/watch?v=sv9dDtYnE1g",
+      "categoriaId": 1,
+      "id": 14
     },
     {
-      "titulo": "Video Teste",
-      "description": "Teste V",
-      "url": "https://www.youtube.com/watch?v=bEl6yN3vd-U",
+      "titulo": "Use um Arduino sem ter Arduino! ",
+      "description": "Use um Arduino sem ter Arduino! #ManualMaker",
+      "url": "https://www.youtube.com/watch?v=CrHJj4OQ6Sw&list=PLYjrJH3e_wDNLUTN32WittrpBxeleEqNp&t=0s",
+      "categoriaId": 1,
+      "id": 15
+    },
+    {
+      "titulo": "Conheça os sensores do Arduino #ManualMaker ",
+      "description": "Conheça os sensores do Arduino #ManualMaker ",
+      "url": "https://www.youtube.com/watch?v=vEdYjAbzrAE&list=PLYjrJH3e_wDNLUTN32WittrpBxeleEqNp&index=16",
+      "categoriaId": 1,
+      "id": 16
+    },
+    {
+      "titulo": "Introdução ao Scratch - Curso de Algoritmos",
+      "description": "Introdução ao Scratch",
+      "url": "https://www.youtube.com/watch?v=GrPkuk1ezyo",
       "categoriaId": 2,
-      "id": 6
+      "id": 18
+    },
+    {
+      "titulo": "O que faz uma desenvolvedora front-end?",
+      "description": "O que faz uma desenvolvedora front-end?",
+      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+      "categoriaId": 3,
+      "id": 19
     }
   ]
 }
